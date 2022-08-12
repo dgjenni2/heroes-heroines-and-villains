@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-size: 1.3125rem;
+}
+
+.App {
+	min-height: 100vh;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+footer {
+	border-top: 2px solid black;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
