@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heroes-heroines-and-villains/static/css/main.b0a3ec65.css",
-    "main.js": "/heroes-heroines-and-villains/static/js/main.1788afdb.js",
+    "main.js": "/heroes-heroines-and-villains/static/js/main.da090112.js",
     "static/js/787.bdbaf3a8.chunk.js": "/heroes-heroines-and-villains/static/js/787.bdbaf3a8.chunk.js",
     "static/media/fa-solid-900.ttf": "/heroes-heroines-and-villains/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/heroes-heroines-and-villains/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/heroes-heroines-and-villains/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/heroes-heroines-and-villains/index.html",
     "main.b0a3ec65.css.map": "/heroes-heroines-and-villains/static/css/main.b0a3ec65.css.map",
-    "main.1788afdb.js.map": "/heroes-heroines-and-villains/static/js/main.1788afdb.js.map",
+    "main.da090112.js.map": "/heroes-heroines-and-villains/static/js/main.da090112.js.map",
     "787.bdbaf3a8.chunk.js.map": "/heroes-heroines-and-villains/static/js/787.bdbaf3a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0a3ec65.css",
-    "static/js/main.1788afdb.js"
+    "static/js/main.da090112.js"
   ]
 }
