@@ -2,15 +2,34 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	margin: 0;
 	font-size: 1.3125rem;
 }
 
 .App {
+	text-align: center;
 	min-height: 100vh;
+}
+
+h1,
+h2 {
+	margin: 0.8em 0;
 }
 
 header {
 	border-bottom: 2px solid black;
+}
+
+nav {
+	margin: 0.5rem 0;
+}
+
+.header__navigation {
+	display: none;
+}
+
+.display-block {
+	display: block;
 }
 
 ul {
@@ -23,16 +42,66 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	opacity: 70%;
+}
+
+li + li {
+	margin-top: 0.25em;
+}
+
 footer {
 	border-top: 2px solid black;
 }
 
 .container {
 	margin: 0 auto;
-	width: 90%;
+	width: 95%;
 }
 
 .flex {
 	display: flex;
 	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+@media (min-width: 760px) {
+	.App {
+		text-align: left;
+	}
+	li + li {
+		margin-top: 0;
+	}
+
+	header {
+		padding: 1rem 0;
+		margin-bottom: 1rem;
+	}
+
+	footer {
+		padding: 1rem 0;
+		margin-top: 1rem;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	.container {
+		margin: 0 auto;
+		width: 80%;
+		max-width: 960px;
+	}
+
+	.header__navigation {
+		display: block;
+	}
+
+	.header__navigation__list {
+		display: flex;
+		justify-content: space-between;
+	}
 }

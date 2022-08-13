@@ -3,7 +3,7 @@ import React from "react"
 export default function Home() {
 	return (
 		<div className="container">
-			<h1>The Patterns of Heroes, Heroines and Villains</h1>
+			<h1>Archetypes of Heroes, Heroines and Villains</h1>
 			<h2>
 				<i className="fa-solid fa-book-journal-whills"></i> Hero Archetypes
 			</h2>
@@ -17,6 +17,7 @@ export default function Home() {
 			<h2>
 				<i className="fa-solid fa-book-skull"></i> Villain Archetypes
 			</h2>
+			<p>The negative archetypes of men and women.</p>
 		</div>
 	)
 }
