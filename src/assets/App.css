@@ -1,43 +1,59 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	margin: 0;
-	font-size: 1.3125rem;
+:root {
+	--clr-primary-background: gray;
+	--clr-secondary-background: lightgray;
+	--clr-tertiary-background: darkgray;
+	--clr-alt-text: lightgray;
+	--clr-link-text: darkblue;
 }
 
 .App {
 	text-align: center;
-	min-height: 100vh;
 }
 
 h1,
-h2 {
-	margin: 0.8em 0;
+h2,
+h3,
+p {
+	margin-bottom: 0.5em;
 }
 
 header {
-	border-bottom: 2px solid black;
-}
-
-nav {
-	margin: 0.5rem 0;
+	background-color: var(--clr-primary-background);
+	/* background-image: url("http://cdn.eso.org/images/screen/potw1938a.jpg"); */
+	/* background-image: url("https://thinkwritten.com/wp-content/uploads/2021/08/hero-sea-voyage-1024x576.jpg"); */
+	/* background-size: cover;
+	background-position-y: center; */
 }
 
 .header__navigation {
 	display: none;
+	flex-direction: column;
 }
 
-.display-block {
-	display: block;
+main {
+	min-height: 80vh;
+	background-color: var(--clr-secondary-background);
 }
 
-ul {
-	list-style: none;
-	padding-left: 0;
+main h1,
+h2 {
+	color: var(--clr-alt-text);
+	background-color: var(--clr-primary-background);
+	text-transform: uppercase;
+}
+
+footer {
+	color: var(--clr-alt-text);
+	background-color: var(--clr-primary-background);
+}
+
+.footer__navigation {
+	display: flex;
+	flex-direction: column;
 }
 
 a {
+	color: var(--clr-link-text);
 	font-style: italic;
 	text-decoration: none;
 }
@@ -46,62 +62,106 @@ a:hover {
 	opacity: 70%;
 }
 
+li {
+	text-align: left;
+}
+
 li + li {
 	margin-top: 0.25em;
 }
 
-footer {
-	border-top: 2px solid black;
+.inner-container {
+	padding: 0.5rem 0rem;
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 840px;
 }
 
 .container {
 	margin: 0 auto;
 	width: 95%;
+	max-width: 840px;
 }
 
-.flex {
+.row {
 	display: flex;
 	justify-content: space-between;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.display-flex {
+	display: flex;
 }
 
 .align-center {
 	align-items: center;
 }
 
-@media (min-width: 760px) {
+.text-center {
+	text-align: center;
+}
+
+.no-list-bullet {
+	list-style: none;
+	margin-left: 0;
+}
+
+@media (min-width: 480px) {
 	.App {
 		text-align: left;
 	}
+
+	h1,
+	h2,
+	h3 {
+		text-align: center;
+	}
+
 	li + li {
 		margin-top: 0;
 	}
 
 	header {
 		padding: 1rem 0;
-		margin-bottom: 1rem;
+	}
+
+	.header__navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	footer {
 		padding: 1rem 0;
-		margin-top: 1rem;
+	}
+
+	.footer__navigation {
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	.mobile {
 		display: none;
 	}
 
-	.container {
-		margin: 0 auto;
-		width: 80%;
-		max-width: 960px;
+	.md-col-2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 840px) {
+	.inner-container {
+		border-radius: 0.5rem 0.5rem 0rem 0rem;
 	}
 
-	.header__navigation {
-		display: block;
-	}
-
-	.header__navigation__list {
-		display: flex;
-		justify-content: space-between;
+	.lg-col-3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }

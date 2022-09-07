@@ -7,13 +7,13 @@ export default function Header() {
 
 	const getNavbarClass = () => {
 		return displayNavbar
-			? "header__navigation display-block"
+			? "header__navigation display-flex"
 			: "header__navigation"
 	}
 
 	return (
 		<header>
-			<div className="container flex align-center">
+			<div className="container row align-center">
 				<h1>
 					<i className="fa-solid fa-book fa-fw"></i> Story Archetypes
 				</h1>

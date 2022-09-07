@@ -3,7 +3,6 @@ import React from "react"
 export default function Home() {
 	return (
 		<div className="container">
-			<h1>Archetypes of Heroes, Heroines and Villains</h1>
 			<h2>
 				<i className="fa-solid fa-book-journal-whills"></i> Hero Archetypes
 			</h2>

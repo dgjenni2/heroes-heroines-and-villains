@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="container">
-				<Navbar />
+				<Navbar className="footer__navigation" />
 				<p>All rights reserved 2022</p>
 			</div>
 		</footer>

@@ -1,14 +1,602 @@
 {
-	"chief": {},
-	"badboy": {},
-	"bestfriend": {},
-	"charmer": {},
-	"lostsoul": {},
-	"professor": {},
-	"recluse": {},
-	"fool": {},
-	"womansman": {},
-	"messiah": {},
-	"artist": {},
-	"king": {}
+	"alchemist": {
+		"name": "Alchemist",
+		"icon": "fa-solid fa-eye fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Lone Wolf", "Lost Soul", "Recluse", "Wizard"],
+		"examples": ["Hades", "Batman"],
+		"summary": [
+			"The iconic image of a hero is a bold, strong and cheerful man fails to capture the Alchemist archetype, a heroic man focused on knowledge and traditions outside of the standards of society. He studies topics that his enemies and villains might use to understand how to counter them effectively. He also is willing to dive into knowledge that is dangerous or risky, but the Alchemist treads carefully to ensure his own safety and the safety of others around him.",
+			"The depth and his desire to discover all truths within a domain grants him access to powers that others could only dream about. The Alchemist might learn how to transform metals like copper and nickel into pure gold. His extensive knowledge of rare herbs and medicines allow him to identify and cure ailments of kings and friends that otherwise would be lethal. In another form, he is the ninja, able to access ancient secrets to effectively take down the villain using stealth and combination of poisons to incapacitate his target.",
+			"While the morals and intentions of the Alchemist might be noble, his methods often make him an outcast in society. People fear the potential harm that he could cause if those morals no longer restrain his actions, and the strangeness of his interests make others shun him away. The Alchemist might not take this personally, understanding how different he is than the average person. Still, this distance between himself and others can lead him to become too isolated from other people and too focused on his pursuit to a point of insanity. The Alchemist needs to avoid becoming complacent and passive in isolation; otherwise he may refuse to help or take actions when people need him most."
+		],
+		"motives_priorities": [
+			"Belonging",
+			"Independence",
+			"Introspection",
+			"Loneliness",
+			"Peaceful",
+			"Purpose",
+			"Safety",
+			"Self-mastery",
+			"Solitude",
+			"Tragedy",
+			"Vengeance",
+			"Virtue"
+		],
+		"story_arcs": [
+			"A talented solo agent for years, he must come to terms with needing assistance with his next project",
+			"Having isolated for years, he must come out of hiding to solve a problem with his unique perspective.",
+			"Ravaged by a deteriorating mental disease, he withdraws to make peace with the end of his life.",
+			"Searching for a deeper purpose and connection on his own, a mysterious individual enters his life who makes him reconsider his situation.",
+			"Thrust back into society to support a loved one, he must learn to reintegrate into a larger community.",
+			"Withdrawn from the world after a tragic event, he battled with his inner demons away from the influence of society."
+		]
+	},
+	"amazon": {
+		"name": "Amazon",
+		"icon": "fa-solid fa-hand-fist fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Crusader"],
+		"examples": ["Artemis", "Wonder Woman"],
+		"summary": [
+			"In a world full of danger without strong men around to protect her, a woman may choose to become an Amazon to survive and to defend their community by taking up traditional, masculine roles. She focuses on building raw, physical strength to become capable of fighting against enemies who threaten her and her people. By taking on this burden upon herself, she protects other more vulnerable women and children from having to risk their lives in dangerous situations.",
+			"While her life may have added complexity and peril, the Amazon enjoys tackling these challenges. She grows more fiercesome and more competent after each battle; every victory under her belt is another reason to become stronger to defeat her new opponents and challengers. The Amazon can eventually earn so much respect and success that she becomes influential leader and a force for change against the hegemony of men.",
+			"Still, there are tradeoffs to pursuing the life of an Amazon. She may become haughty about her physical strength, ignoring warning signs that others would have noticed but she believes pose no real threat to her. She often begins to view men as her rival competitors rather than potential partners, potentially to such a degree she views men as her inferiors and champions against masculine interests to liberate women. Even if she does not fall into that toxic mindset, the Amazon often has trouble attracting male attention and maintaining steady relationships because she rejects the feminine behaviors that men find appealing."
+		],
+		"motives_priorities": [
+			"Anger",
+			"Champion for the Weak",
+			"Defense",
+			"Equality",
+			"Fairness",
+			"Freedom",
+			"Masculinity",
+			"Physical strength",
+			"Protection",
+			"Survival",
+			"Thrills",
+			"Women's Empowerment"
+		],
+		"story_arcs": [
+			"The Amazon is forced into a conflict to protect her loved ones in an arena where her physical strength is useless or inferior against her opponent.",
+			"Resentment and bitterness grips at the Amazon's psyche after losing a significant battle, and she must learn to let go of the remorse that is poisoning her spirit.",
+			"Despite her innate contempt for men stemming from only encountering weak men in the past, the Amazone must learn to drop her prejudice towards men and learn how to befriend them.",
+			"Growing up being belittled and taken advantage of stronger men, the Amazon trains herself to become a symbol of strength for women by to journeying to defeat her abusers from long ago, so she can prevent other women succumbing to her fate.",
+			"The toughness and strength have allowed the Amazon to become the chieftan, but she must learn to embrace her feminine and tone down her masculine traits to find true love with a prince from another tribe."
+		]
+	},
+	"artisan": {
+		"name": "Artisan",
+		"icon": "fa-solid fa-paintbrush fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Artist", "Bard", "Musician"],
+		"examples": ["Hephaestus"],
+		"summary": [
+			"A blank canvas. A block of wood. A quiet instrument. An Artisan can manipulate these items in a near infinite amount of ways to express ideas and to relay feelings in a supernatural way. The average person struggles to produce anything with these tools, but the Artisan can creates masterpieces that strike awe and wonder into generations for eternity.",
+			"The foundations that guide an Artisan are primarily his passions and intuition. They drive him to ceaselessly explore the boundaries of his craft from his ordinary beginnings as a novice until transforming into a master from a continuous practice of trial and error. Once his skills are developed, the Artisan can take the understanding of the medium's rules and intentionally break them to create beautiful works of art.",
+			"While his artistic talents and creative passions drive his character, they can lead to his downfall. When inspiration dances just beyond his reach, his work can stall out for days or even years, devastating the Artisan's reputation and income. His stubbornness or unfounded belief in his mastery may cause him to reject useful criticism in an attempt to protect his ego rather than continue to grow as a person.",
+			"Ultimately, the Artisan has incredible talents and abilities that can create beautiful, quality art beyond the capabilities of amateurs and logical men. The works reflect hopes, dreams and the truth of reality, and when they are crafted with the soul of the artist, then they can even depict the essence of divinity."
+		],
+		"motives_priorities": [
+			"Creation",
+			"Creativity",
+			"Critics",
+			"Exploration",
+			"Expression",
+			"Medium",
+			"Passion",
+			"Prestige",
+			"Process",
+			"Survival",
+			"Quality"
+		],
+		"story_arcs": [
+			"Cooperating with a team of less creative-minded individuals to make a creative product.",
+			"Finding his authentic style while struggling to please critics and his audience.",
+			"Finding the inspiration to create his magnum opus before retirement.",
+			"Learning to focus his creativity within a schedule instead of as a free-spirit.",
+			"Learning to communicate his feelings and needs through his art to save a relationship.",
+			"Learning a new medium or skill from one that they have already mastered.",
+			"Using his creative talent to solve an internal struggle for himself or another person.",
+			"Working to get recognized as a professional artist when starting as an amateur."
+		]
+	},
+	"courtesan": {
+		"name": "Courtesan",
+		"icon": "fa-solid fa-face-kiss-wink-heart fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Bachelor", "Bard", "Charmer", "Playboy", "Prince Charming"],
+		"examples": ["Dionysus", "Eros"],
+		"summary": [
+			"Charming. Witty. Alluring. A man of refined taste. The Courtesan is a man high on life, enjoying the various social games and pleasures that are available to him. He enjoys a challenge to his skills and passions, and he is eager to learn and to play in new areas to keep life interesting.",
+			"Noteably, the Courtesan has a seemingly uncanny ability to charm and to woo any woman in his presense. He doesn't force himself upon them, but rather cultivates a charismatic persona that she cannot resist on an instinctual level. This ability may appear to be natural, but it was a talent that he developed after years of trial and error. When he becomes a master in this field, the world becomes his oyster as he finds unlimited opportunities to apply his charm to persuade others on his quests and adventures.",
+			"With the powerful power of persuasion at his finger tips, the Courtesan invites danger from unwanted guests if he uses his skill at the wrong time. Others may see through his charade and bravado, and they might seek to punish him for playing them. There is also a troublesome situation where the Courtesan may be too successful and end up having to balance multiple, contradictory stories to maintain his reputation and status."
+		],
+		"motives_priorities": [
+			"Challenge",
+			"Control",
+			"Love",
+			"Pleasure",
+			"Power",
+			"Social Capital",
+			"Status",
+			"Women"
+		],
+		"story_arcs": [
+			"Acting as a spy in a foreign land to uncover a subversive plot.",
+			"Becoming a diplomatic middle-man to find a peaceful resolution between two parties that both can agree on.",
+			"Encountering a woman who makes him choose between his bachelor life and settling down.",
+			"Learning how to use his wit and charm to get the girl of his dreams.",
+			"Playing subtle games within a political system to ensure positive change for the people.",
+			"Wooing a woman with their charm to prevent them from continuing a bad relationship."
+		]
+	},
+	"king": {
+		"name": "King",
+		"icon": "fa-solid fa-crown fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": [
+			"CEO",
+			"Chief",
+			"Leader",
+			"Patriarch",
+			"President",
+			"Pharoah",
+			"Ruler"
+		],
+		"examples": [
+			"Abraham Lincoln",
+			"Barack Obama",
+			"Caesar",
+			"David",
+			"Donald J Trump",
+			"George Washington",
+			"Rockefeller",
+			"Romulus",
+			"Solomon",
+			"Zeus"
+		],
+		"summary": [
+			"The King archetype represents the pinnacle of masculine leaders, a man with complete control over his domain, whether that is a kingdom, country, business or a clan. Within him resides total authority over the actions of his people, to control them with absolute power towards his lofty ambitions.",
+			"While there is the appearance of one man in complete control, behind the scenes there are advisors and managers providing assitance in running his kingdom. No man reaches the highest seats of power on his own merits without consequence, and those who must shrewdly find loyalists to support him. Otherwise, that King will only have the briefest taste of life at the top.",
+			"The greatest of Kings are remembered for centuries and millenia after their death. Their actions and achievements leave marks on the flow of history, changing the landscape of events long after they are gone. Even if their kingdoms disappear to the sands of time, their legacy lives on immortalized in stories and legends that inspire other men to pursue even a fraction of their power, wealth and influence."
+		],
+		"motives_priorities": [
+			"Power",
+			"Influence",
+			"Authority",
+			"Reputation",
+			"Legacy",
+			"Lineage",
+			"The Kingdom and its People",
+			"Resources",
+			"Wealth",
+			"War"
+		],
+		"story_arcs": [
+			"Defending the kingdom from an existential threat.",
+			"Saving his queen or his princess from an evil captor.",
+			"Expansion of the kingdom through conquest, treaty or marriage.",
+			"Locating a worthy successor.",
+			"Quash an uprising or rebellion.",
+			"Navigating the court politics and dealing with lesser noblity.",
+			"Choosing a proper queen between multiple candidates.",
+			"Learning how to wield power after accepting the thrown.",
+			"Returning to the throne after exile."
+		]
+	},
+	"knight": {
+		"name": "Knight",
+		"icon": "fa-solid fa-shield fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": [
+			"Crusader",
+			"Fighter",
+			"Protector",
+			"Samurai",
+			"Soldier",
+			"Warrior"
+		],
+		"examples": ["Ares"],
+		"summary": [],
+		"motives_priorities": [
+			"Bravery",
+			"Comradery",
+			"Fairness",
+			"Honor",
+			"Peace",
+			"Protection",
+			"Simplicity",
+			"Strength",
+			"Subordinates",
+			"Superiors",
+			"Survival",
+			"War"
+		],
+		"story_arcs": [
+			"Defending the innocent as a noble exile after losing a significant fight.",
+			"Fighting a war against an unspeakable evil deep in their territory.",
+			"Learning to take their physical skills and prowess and translating them into an environment that cannot use violence.",
+			"Losing physical ability from an injury and recovering from that even stronger.",
+			"Overcoming an equal or stronger opponent, whether physically, mentally or intellectually stronger.",
+			"Protecting a town or city against an invasion against impossible odds.",
+			"Rescuing a princess or noble from a powerful enemy.",
+			"Training a pupil in their martial arts."
+		]
+	},
+	"maiden": {
+		"name": "Maiden",
+		"icon": "fa-solid fa-venus fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Princess", "Virgin", "Waif"],
+		"examples": ["Persephone"],
+		"summary": [],
+		"motives_priorities": [
+			"Beauty",
+			"Chastity",
+			"Curiosity",
+			"Frailty",
+			"Hope",
+			"Insecurity",
+			"Kindness",
+			"Perseverence",
+			"Purity",
+			"Trust"
+		],
+		"story_arcs": [
+			"A newcomer to a foreign city of crime and villainy, the Maiden must choose between adapting to the degenerate lifestyle of her new environment or remaining chaste and resolute in her convictions that she can change the place for the better.",
+			"When an unspeakable evil befalls a kingdom and captures the Maiden, she must use her internal strength and resolve to remain steadfast to her belief in her fated rescuer and reject the advances of evil to court her."
+		]
+	},
+	"merchant": {
+		"name": "Merchant",
+		"icon": "fa-solid fa-user-tie fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Business Man", "Entrepreneur"],
+		"examples": ["Apollo"],
+		"summary": [
+			"Fortune favors the bold. Opportunity cost is the greatest price. My purpose is my work. These are several mottos that the Merchant takes to heart and fully believes in. Profits, sales and success are all a metric of effort, and he intends to maximum his wealth without resorting to shady tactics.",
+			"With his goals and aspirations, the Merchant must be an expert in one or more areas to attract his customers. When he falls short in a skill, he has a list ready of contacts who can be contracted out that do that work for him and keep the project's momentum moving. He remains focused on his goals for his business, always brainstorming new improvements for his business and bouncing potential ideas off others to curate the best ideas.",
+			"A Merchant can have a glamourous, exciting life on the frontiers of industry, but there are several pitfalls that can ruin his success. One of the worst situations for the Merchant to find himself is isolation, because a businessman without customers and employees will find himself burnt out and broke in a heart beat. He can also struggle to maintain a healthy balance between his work life and his family life, potentially having to choose between them. Additionally, the Merchant has to be hyper aware of his public reputation and to keep it clean from libelous attacks from his competitors."
+		],
+		"motives_priorities": [
+			"Career",
+			"Company",
+			"Competition",
+			"Coworkers",
+			"Efficiency",
+			"Honor",
+			"Progression",
+			"Pride",
+			"Profit",
+			"Respect",
+			"Reputation",
+			"Sense of Accomplishment"
+		],
+		"story_arcs": [
+			"Dealing with jealousy and building rapport with a competitor or a coworker after being slighted.",
+			"Learning to rebalance his life between work and other relationships, e.g. family and love.",
+			"Losing his career and how to recover and rebuild from that loss.",
+			"Receiving a promotion into a new position with entirely different responsibilities.",
+			"Remembering to have compassion for subordinates rather than valuing only money.",
+			"Starting a business venture after years of stagnation or preparation."
+		]
+	},
+	"messiah-female": {
+		"name": "Messiah (Female)",
+		"icon": "fa-solid fa-ankh fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": [],
+		"examples": ["Isis", "Joan of Arc"],
+		"summary": [],
+		"motives_priorities": [
+			"Connection",
+			"Conviction",
+			"Faith",
+			"Harmony",
+			"Inner Demons",
+			"Love",
+			"Morality",
+			"Salvation",
+			"Soul",
+			"Support",
+			"The People"
+		],
+		"story_arcs": [
+			"As turmoil and tragedy befall her and her family, the Female Messiah keeps morale high within her family by placing her trust in a higher power to deliver them from their troubles to quell the feelings of fear and despair.",
+			"In a vision from her gods, the Female Messiah is entrusted with a divine mission that is essential to complete to restore a downtrodden and weak people back to their former glory.",
+			"Maladies and diseases are affecting her community and loved ones, and as others turn towards more pragmatic solutions to the epidemic, the Female Messiah fights back against this and encourages them to remain strong and to hold faith the community will survive."
+		]
+	},
+	"messiah-male": {
+		"name": "Messiah (Male)",
+		"icon": "fa-solid fa-cross fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Savior", "Redeemer"],
+		"examples": ["Osiris", "Jesus", "Moses"],
+		"summary": [""],
+		"motives_priorities": [
+			"Defeating external evil and demons",
+			"Greater divinities and god",
+			"Fate of a chosen people",
+			"Order from chaos",
+			"Prophecy",
+			"Redemption",
+			"Religious Dogma",
+			"Restore balance",
+			"Unity in faith"
+		],
+		"story_arcs": [
+			"Defeat an oppressive evil that has rooted in the world.",
+			"Learning to accept fate to carrying out a divine mission.",
+			"Provide an example of righteousness for others to follow.",
+			"Restore the religious institutions to former glory.",
+			"Sacrifice his mortality and humanity to gain divinity.",
+			"Save a chosen people who have strayed from faith.",
+			"Unifying a divided faith."
+		]
+	},
+	"oracle": {
+		"name": "Oracle",
+		"icon": "fa-solid fa-wand-sparkles fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Free Spirit", "Hippie", "Mystic"],
+		"examples": ["Hecate", "Oracle of Delphi"],
+		"summary": [],
+		"motives_priorities": [
+			"Aesthetics",
+			"Balance",
+			"Freedom from Mortality",
+			"Future",
+			"Help the Unfortunate",
+			"Independence",
+			"Intentionality",
+			"Present",
+			"Nature",
+			"Sacredness",
+			"Self-Sufficiency",
+			"Simplicity",
+			"Spirituality"
+		],
+		"story_arcs": [
+			"As she works on her faith and dealing with her inner conflicts, the Oracle must realize that her dependencies on toxic substances and people need to be severed in order to gain the independence and inner peace she desires.",
+			"The Oracle's wisdom served her well for many years, elevating her to a high position of status, but she must take a step back from her position to reconnect with the people to avoid becoming isolated and having her wisdom become stale.",
+			"With her gifts and talents of future sight, the Oracle must decide how to help another hero in the center of that story prevail, but if she reveals too much information of her vision, then failure is the certain outcome."
+		]
+	},
+	"nurturer": {
+		"name": "Nurturer",
+		"icon": "fa-solid fa-seedling fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": [],
+		"examples": ["Demeter"],
+		"summary": [],
+		"motives_priorities": [
+			"Children",
+			"Community",
+			"Compassion",
+			"Control",
+			"Elderly",
+			"Family",
+			"Motherhood",
+			"Patients",
+			"Peace",
+			"Safety",
+			"Teaching",
+			"Weak"
+		],
+		"story_arcs": [
+			"A proud mother of several children who are now entering adolescence, the Nurturer must learn to allow her children to fail without being a safety net to allow them to grow into proper adults.",
+			"After countless years as a guardian and teacher, the Nurturer is ready to retire, but without her work on a day to day basis, she needs to rediscover her identity outside of being a teacher and mother.",
+			"Taking up new career as a babysitter or teacher, the Nurturer needs to figure out how to gain enough trust with those in her care to be able to effectively care and teach them."
+		]
+	},
+	"queen": {
+		"name": "Queen",
+		"icon": "fa-solid fa-chess-queen fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Matriarch"],
+		"examples": ["Hera"],
+		"summary": [],
+		"motives_priorities": [
+			"Control",
+			"Family",
+			"Legacy",
+			"Lineage",
+			"Marriage",
+			"Order",
+			"Peace",
+			"Perfection",
+			"Protection",
+			"Power",
+			"Reputation",
+			"Respect",
+			"Strict Rules",
+			"Success"
+		],
+		"story_arcs": [
+			"Despite all of her best attempts, one of her children keeps stepping out of line and causes problems for the larger family, and the Queen feels responsible to fix the situation to prevent that behavior from spreading within and outside at home.",
+			"The daily life of the Queen requires her to maintain her relationship with her King, raise the princes and princesses of the next generation and entertain various members of the court, which has only gotten more difficult with each passing year.",
+			"The Queen inherited an incredibly weak kingdom a short time ago after the death of the previous rule, and she must weigh her alliances and potential marriages with neighboring, warring kingdoms to ensure lasting peace in the future."
+		]
+	},
+	"rogue": {
+		"name": "Rogue",
+		"icon": "fa-solid fa-face-smile-wink fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Bad Boy", "Cowboy", "Rebel", "Swashbuckler"],
+		"examples": ["Batman"],
+		"summary": [],
+		"motives_priorities": [
+			"Adventure",
+			"Challenge",
+			"Excitement",
+			"Honor",
+			"Reputation",
+			"Secrecy",
+			"Survival",
+			"Wealth"
+		],
+		"story_arcs": [
+			"Briefly encountering a high-class woman what seems like another world, he has find a way to charm her with his rugged personality.",
+			"Having escaped a hard life on the streets, he struggles to help his family escape that same fate.",
+			"Promises of an adventure with a hefty reward entice him to stray dangerously close to crossing the rubicon on his personal morals.",
+			"Struggling day to day to survive on the streets of a dangerous city, he is given an offer he cannot refuse that could be his ticket to security.",
+			"Their reputation preceeds him as he arrives in a new town, and he needs to avoid getting into trouble with authorities and criminals."
+		]
+	},
+	"scholar": {
+		"name": "Scholar",
+		"icon": "fa-solid fa-vial fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": [
+			"Academic",
+			"Analyst",
+			"Genius",
+			"Intellectual",
+			"Mentor",
+			"Professor",
+			"Scientist"
+		],
+		"examples": [],
+		"summary": [],
+		"motives_priorities": [
+			"Discovery",
+			"Education",
+			"Knowledge",
+			"Learning",
+			"Progress",
+			"Science",
+			"Teaching",
+			"Understanding",
+			"Wisdom"
+		],
+		"story_arcs": [
+			"A fellow scientist has unleashed a terrible plague with his research, and the alchemist is the most capable to uncover how to reverse it.",
+			"Dealing with an emotional lover while his mind is purely analytical.",
+			"Emotionally or physically stunted, the alchemist must improve these shortcomings to succeed in their field.",
+			"Given an impending doom, the alchemist must finish his research to save a life.",
+			"Mentoring a future hero with their knowledge and wisdom to complete the goal that they could not achieve themselves.",
+			"Mentoring an individual who has a completely different skillset and is difficult to communicate with",
+			"Researching on a topic has seemingly lead to a dead-end right as their tenure is up for renewal.",
+			"Working with a sports team and needing to teach strategies for victory but lacking the physical strength to show those strategies."
+		]
+	},
+	"siren": {
+		"name": "Siren",
+		"icon": "fa-solid fa-face-kiss-wink-heart fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Seductive Muse", "Seductress"],
+		"examples": ["Aphrodite"],
+		"summary": [],
+		"motives_priorities": [
+			"Attention",
+			"Avoid suffering",
+			"Beauty",
+			"Control",
+			"Fame",
+			"Femininity",
+			"Intimacy",
+			"Jealousy",
+			"Love",
+			"Power",
+			"Pleasure",
+			"Sex",
+			"Status",
+			"Vulnerability"
+		],
+		"story_arcs": [
+			"For a long time, the Siren has used her sexuality to her advantage, but after she contracts a disease that erases her attractiveness, can she discover a way to cultivate another aspect of her personality.",
+			"Her beauty from a young age has made the Siren the center of attention and the central focus in her life, but when a significant other is in dire need, the Siren must figure out how to rally others to this other person despite her jealous problems.",
+			"With such great beauty and femininity, the Siren gets written off by her male and female counterparts as merely a sex object; can she figure out a way to display her intelligence and other qualities to change her negative reputation?",
+			"The man of her dreams is in her sights, but can the Siren use her beauty and charm to capture his attention amidst a fierce competition for his heart?"
+		]
+	},
+	"squire": {
+		"name": "Squire",
+		"icon": "fa-solid fa-handshake-simple fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Best Friend", "Believer", "Loyalist", "Servant"],
+		"examples": ["Samwise Gamgee"],
+		"summary": [],
+		"motives_priorities": ["The Cause", "Family", "Friends", "Reputation"],
+		"story_arcs": [
+			"Choosing between two causes that are equally important.",
+			"Learning to avoid blindly supporting a cause",
+			"Learning to avoid complete or co-dependency on others.",
+			"Supporting another character to ensure success of the mission."
+		]
+	},
+	"tomboy": {
+		"name": "Tomboy",
+		"icon": "fa-solid fa-venus-mars fa-fw",
+		"gender": "female",
+		"flavor": "",
+		"aliases": ["Father's Daughter", "Librarian", "Spunky Kid"],
+		"examples": ["Athena"],
+		"summary": [],
+		"motives_priorities": [
+			"Competition",
+			"Efficiency",
+			"Independence",
+			"Male approval",
+			"Male attention",
+			"Purpose",
+			"Rebellion",
+			"Self-actualization",
+			"Strategy"
+		],
+		"story_arcs": [
+			"The Tomboy has gotten along with her group of male friends ever since childhood, but strange feeling start bubbling up inside her about each one as she struggles to maintain her friendships while exploring her true feelings.",
+			"She has always had her own style and opinions that differed from her female friends, but once the Tomboy is employed by a no-nonsence female boss who is disgusted with her boyishness, she must figure out how to embrace femininity to maintain her job.",
+			"A single mother with a teenage daughter who totally embraces her femininity, the Tomboy must figure out how to reconnect with her daughter and even learn something from her to prevent both of them from making serious mistakes."
+		]
+	},
+	"trickster": {
+		"name": "Trickster",
+		"icon": "fa-solid fa-face-laugh-squint fa-fw",
+		"gender": "male",
+		"flavor": "",
+		"aliases": ["Comic", "Fool", "Jester", "Joker"],
+		"examples": ["Hermes"],
+		"summary": [],
+		"motives_priorities": [
+			"Excitement",
+			"Freedom",
+			"Humor",
+			"Living to the Fullest",
+			"Originality",
+			"New Experiences",
+			"Pushing Boundaries",
+			"Spreading Joy",
+			"Youthfulness"
+		],
+		"story_arcs": [
+			"Changing a negative mindset through example.",
+			"Defeating some internal limitations set upon himself by his identity.",
+			"Discovering the limits of a system by pushing well-established boundaries.",
+			"Gaining respect despite his carefree attitude.",
+			"Handling situations where responsibilities and seriousness are required.",
+			"Learning to temper excessive debauchery stemming from his personality.",
+			"Surpassing limits when an underestimated by a shrewd judge."
+		]
+	}
 }
